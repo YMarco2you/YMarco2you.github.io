@@ -1,0 +1,46 @@
+html, body {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+}
+
+#GT-img {
+    position: fixed;
+    width: 100px;        
+}
+
+.audio{
+    text-align: center;
+}
+.tintulo{
+    text-align: center;
+    color: blue;
+    animation: pixca 3s infinite;
+}
+@keyframes pixca {
+    0% {color: black}
+    5% {color: rgb(218, 23, 23)}
+    10% {color: rgb(92, 72, 207)}
+    15% {color: rgb(117, 25, 25)}
+    20% {color: rgb(138, 218, 63)}
+    25% {color: rgb(151, 30, 30)}
+    30% {color: rgb(66, 197, 153)}
+    35% {color: rgb(39, 98, 167)}
+    40% {color: rgb(61, 63, 170)}
+    45% {color: rgb(47, 45, 150)}
+    50% {color: rgb(201, 50, 133)}
+    55% {color: rgb(36, 5, 22)}
+    60% {color: rgb(111, 36, 173)}
+    65% {color: black}
+    70% {color: rgb(199, 30, 143)}
+    75% {color: rgb(110, 165, 65)}
+    80% {color: rgb(57, 16, 204)}
+    85% {color: rgb(206, 88, 88)}
+    90% {color: rgb(21, 172, 199)}
+    95% {color: rgb(47, 167, 63)}
+    100% {color: rgb(7, 40, 187)}
+}
